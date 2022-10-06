@@ -161,7 +161,7 @@ public class register_activity extends AppCompatActivity {
     private String getFileExtension(Uri uri) {
         ContentResolver cR = getContentResolver();
         MimeTypeMap mime = MimeTypeMap.getSingleton();
-        return mime.getExtensionFromMimeType(cR.getType(imageUri));
+        return mime.getExtensionFromMimeType(cR.getType(uri));
     }
 
     private void uploadImage() {
