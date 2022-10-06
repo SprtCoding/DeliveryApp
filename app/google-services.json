@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545685175604",
+    "project_id": "quickbite-23bf5",
+    "storage_bucket": "quickbite-23bf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545685175604:android:5c42d5488fb9a47b84f961",
+        "android_client_info": {
+          "package_name": "com.sprtech.quickbite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545685175604-t4tan9ve7h8rkufp0aormd6tm0q6efi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfsFawhl4_sbUCLR9lhypEjPRZ76P5jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545685175604-t4tan9ve7h8rkufp0aormd6tm0q6efi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

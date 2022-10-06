@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdminMeFragment">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/gradient_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables,UselessParent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/customer_profile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/quickbitelogo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:contentDescription="@string/icon"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/customer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_name"
+                android:textSize="15pt"
+                android:fontFamily="@font/alata"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="10dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="15dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/chartBtn"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            app:cornerRadius="5dp"
+            android:text="View Organizational Chart"
+            android:textSize="6pt"
+            android:fontFamily="@font/alata"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:textColor="@color/black"
+            app:icon="@drawable/outline_logout_24"
+            app:iconTint="@color/black"
+            android:layout_marginBottom="60dp"
+            android:text="@string/log_out"
+            app:iconSize="30dp"
+            android:textSize="7pt"
+            android:fontFamily="@font/alata"/>
+
+    </LinearLayout>
+
+</LinearLayout>

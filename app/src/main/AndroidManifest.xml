@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprtech.quickbite">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuickBite">
+        <activity
+            android:name=".grocery_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".chart_activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".my_order"
+            android:exported="false" />
+        <activity
+            android:name=".view_all_deliveryFee"
+            android:exported="false" />
+        <activity
+            android:name=".edit_food_activity"
+            android:exported="false" />
+        <activity
+            android:name=".nice_spice_list"
+            android:exported="false" />
+        <activity
+            android:name=".ElSorbetero_list"
+            android:exported="false" />
+        <activity
+            android:name=".sizzling_list"
+            android:exported="false" />
+        <activity
+            android:name=".thirTeaAnn_list"
+            android:exported="false" />
+        <activity
+            android:name=".order_details"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".food_add_to_cart"
+            android:exported="false" />
+        <activity
+            android:name=".crcle_list"
+            android:exported="false" />
+        <activity
+            android:name=".rotonda_list"
+            android:exported="false" />
+        <activity
+            android:name=".kape_point_list"
+            android:exported="false" />
+        <activity
+            android:name=".inasal_list"
+            android:exported="false" />
+        <activity
+            android:name=".KNL_list"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".add_new_product"
+            android:exported="false" />
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".customer_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".register_activity"
+            android:exported="false" />
+        <activity
+            android:name=".login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".FCM.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

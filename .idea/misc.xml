@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_account_balance_wallet_24.xml" value="0.156" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_add_20.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_contact_support_24.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_delete_outline_24.xml" value="0.156" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_remove_24.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_remove_shopping_cart_24.xml" value="0.184" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_shopping_bag_24.xml" value="0.156" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/baseline_two_wheeler_20.xml" value="0.156" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/bg.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/crcle_bg.xml" value="0.109" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/gradient_bg.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/inasal_bg.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/input_border.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/knl_bg.xml" value="0.1" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/outline_edit_24.xml" value="0.156" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/outline_shopping_cart_24.xml" value="0.109" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/drawable/thirst_bg.xml" value="0.109" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/font/akaya_telivigala.xml" value="0.14828544949026876" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_add_new_product.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_cart.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_chart.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_crcle_list.xml" value="0.13247863247863248" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_edit_food.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_el_sorbetero_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_food_add_to_cart.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_grocery_order_details.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_inasal_list.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_jollibee_list.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_kape_point_list.xml" value="0.13247863247863248" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_knl_list.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_my_order.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_nice_spice_list.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_order_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_rotonda_list.xml" value="0.13247863247863248" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_sizzling_list.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_splash_screen.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_thir_tea_ann_list.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_thirst_zone_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_travelers_list.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_view_all_delivery_fee.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/add_toolbar.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/admin_foods_list.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/admin_toolbar.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/branch_food_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/cart_item.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/cart_toolbar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/chart_toolbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/crlcle_toolbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/cus_notif_list.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/delivery_fee_list.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/dropdown_item.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/esit_toolbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_home.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_me.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_message.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_notification.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_me.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_message.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_notification.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/inasal_toolbar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/jollibee_toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/ksl_toolbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/message_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/my_order_item.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/order_details_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/order_details_toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/order_layout_notification.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/red_toolbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/set_status_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/white_toolbar.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/menu/admin_bottom_nav.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/bg.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/input_border.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/outline_account_circle_20.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/outline_chat_24.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/outline_home_24.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/outline_logout_20.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/outline_notifications_24.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/drawable/outline_shopping_cart_24.xml" value="0.1495" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/activity_register.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/admin_foods_list.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/admin_toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_admin_home.xml" value="0.22" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_admin_me.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_admin_message.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_admin_notification.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_me.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_message.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/fragment_notification.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/layout/meow_buttom_nav.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/maril/AndroidStudioProjects/QuickBite/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdminHomeFragment">
+
+    <include
+        android:id="@+id/main_page_toolbar"
+        layout="@layout/admin_toolbar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </include>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_page_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:gravity="center"
+            android:background="@drawable/gradient_bg"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/quickbitelogo"
+                android:layout_gravity="center"
+                android:contentDescription="@string/icon"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_available_items"
+            android:textColor="#546E7A"
+            android:fontFamily="@font/alata"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/allBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="See all"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/ThirTeaBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/thintea"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="ThirTea Ann"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/InasalBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/manginasal"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Mang Inasal"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/kusinaBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/kusina"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Kusina ni Lea"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/RotondaBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/rotonda"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Rotonda Cafe"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/SizzlingBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/sizzling"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Sizzling 99"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/KafeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/kapepoint"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Kafe Point"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/SorbeteroBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/elsorbetero"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="El Sorbetero"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/nice_spiceBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/nicespice"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/nice_spice"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_marginStart="10dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_gravity="center"
+                    android:id="@+id/ThirstBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/thirst"
+                    app:iconSize="25dp"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:strokeColor="#87CEFA"
+                    android:textColor="#87CEFA"
+                    app:cornerRadius="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Thirst Zone"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alata"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/item_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="10dp" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/no_data_layout"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    app:lottie_rawRes="@raw/delivery"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Data Found!"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/alata"
+                    android:textColor="#AFAFAF"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

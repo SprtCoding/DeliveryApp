@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MessageFragment">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:gravity="center"
+        android:background="@drawable/gradient_bg"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/quickbitelogo"
+            android:layout_gravity="center"
+            android:contentDescription="@string/icon"/>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MISSION"
+                android:textSize="30sp"
+                android:fontFamily="@font/alata"
+                android:layout_gravity="center"
+                android:textColor="@color/teal_700"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/mission"
+                android:textSize="20sp"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/alata"
+                android:layout_gravity="center"
+                android:textColor="@color/teal_700"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VISION"
+                android:textSize="30sp"
+                android:fontFamily="@font/alata"
+                android:layout_gravity="center"
+                android:textColor="@color/teal_700"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/vission"
+                android:textSize="20sp"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/alata"
+                android:layout_gravity="center"
+                android:textColor="@color/teal_700"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="15dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:id="@+id/chartBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                app:cornerRadius="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="View Organizational Chart"
+                android:textSize="6pt"
+                android:fontFamily="@font/alata"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
