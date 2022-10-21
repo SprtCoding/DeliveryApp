@@ -37,7 +37,7 @@
         android:text="@string/get_started"
         app:strokeColor="@color/white"
         android:textColor="@color/white"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:textSize="10pt"
         app:cornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/beth_ellen"
                 android:text="@string/products_picture"
                 android:textAlignment="center"
                 android:textColor="@color/black"
@@ -72,7 +72,7 @@
 
                 <AutoCompleteTextView
                     android:id="@+id/autoCompleteTextView"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     android:inputType="none"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -98,7 +98,7 @@
                     android:inputType="textAutoComplete"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -121,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -144,7 +144,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -167,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:inputType="text"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -190,7 +190,7 @@
                     android:layout_width="match_parent"
                     android:inputType="numberDecimal"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -206,9 +206,9 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
                 android:text="Update"
-                android:textSize="10pt"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                android:fontFamily="@font/alata"/>
+                android:fontFamily="@font/comfortaa"/>
 
         </LinearLayout>
 

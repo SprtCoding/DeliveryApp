@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -31,6 +32,7 @@ public class my_order extends AppCompatActivity {
     private DatabaseReference cusOrderRef;
     private FirebaseAuth mAuth;
     private FirebaseUser mUser;
+    private ImageView backBtn;
     LinearLayoutManager linearLayoutManager;
     List<OrderListModel> orderListModels;
     MyOrderAdapter myOrderAdapter;
@@ -86,10 +88,19 @@ public class my_order extends AppCompatActivity {
             });
         }
 
+        backBtn.setOnClickListener(view -> finish());
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
     }
 
     private void initiate() {
         my_order_recycle = findViewById(R.id.my_order_recycle);
         no_data = findViewById(R.id.no_data);
+        backBtn = findViewById(R.id.backBtn);
     }
 }

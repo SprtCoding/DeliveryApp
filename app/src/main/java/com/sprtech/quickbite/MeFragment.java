@@ -30,6 +30,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class MeFragment extends Fragment {
+    String cus_name, cus_email, cus_phone, cus_address, cus_photo;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -43,11 +44,15 @@ public class MeFragment extends Fragment {
 
         MaterialButton logout = v.findViewById(R.id.logout);
         MaterialButton orders = v.findViewById(R.id.orders);
+        MaterialButton editBt = v.findViewById(R.id.editBt);
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser mUser = mAuth.getCurrentUser();
         FirebaseDatabase myDb = FirebaseDatabase.getInstance();
         DatabaseReference userRef = myDb.getReference("Users");
         TextView customer_name = v.findViewById(R.id.customer_name);
+        TextView customer_email = v.findViewById(R.id.email);
+        TextView customer_phone = v.findViewById(R.id.phone);
+        TextView customer_address = v.findViewById(R.id.address);
         CircleImageView customer_profile = v.findViewById(R.id.customer_profile);
         ProgressDialog loadingBar, loadingBar1;
 
@@ -71,20 +76,42 @@ public class MeFragment extends Fragment {
             }, 3000);
         });
 
+        editBt.setOnClickListener(view -> {
+            loadingBar1.show();
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                Intent i = new Intent(getContext(), edit_profile.class);
+                i.putExtra("cus_pic", cus_photo);
+                i.putExtra("cus_name", cus_name);
+                i.putExtra("cus_email", cus_email);
+                i.putExtra("cus_phone", cus_phone);
+                i.putExtra("cus_address", cus_address);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(i);
+                loadingBar1.dismiss();
+            }, 3000);
+        });
+
         assert mUser != null;
         userRef.child(mUser.getUid()).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()) {
                     if(snapshot.hasChild("Fullname")) {
-                        String name = snapshot.child("Fullname").getValue(String.class);
-                        customer_name.setText(name);
+                        cus_name = snapshot.child("Fullname").getValue(String.class);
+                        cus_email = snapshot.child("Email").getValue(String.class);
+                        cus_phone = snapshot.child("Phone").getValue(String.class);
+                        cus_address = snapshot.child("Address").getValue(String.class);
+                        customer_name.setText(cus_name);
+                        customer_email.setText(cus_email);
+                        customer_phone.setText(cus_phone);
+                        customer_address.setText(cus_address);
                     }
                     if(snapshot.hasChild("userPic")) {
-                        String pic = snapshot.child("userPic").getValue(String.class);
+                        cus_photo = snapshot.child("userPic").getValue(String.class);
                         Picasso
                                 .get()
-                                .load(pic)
+                                .load(cus_photo)
                                 .fit()
                                 .centerCrop()
                                 .placeholder(R.drawable.userman)

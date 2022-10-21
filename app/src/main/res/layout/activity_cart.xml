@@ -29,42 +29,42 @@
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:visibility="visible"
                 android:id="@+id/have_cart_layout"
-                android:layout_centerInParent="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:orientation="vertical"
-                android:padding="10dp">
+                android:padding="10dp"
+                android:visibility="visible">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/my_cart"
                     android:layout_gravity="center"
-                    android:textSize="14pt"
-                    android:fontFamily="@font/alata"
-                    android:textStyle="bold"
-                    android:textColor="#546E7A"/>
+                    android:fontFamily="@font/beth_ellen"
+                    android:text="@string/my_cart"
+                    android:textColor="#546E7A"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/comfortaa"
                     android:text="@string/delivery_address"
-                    android:textSize="10pt"
-                    android:fontFamily="@font/alata"
-                    android:textStyle="bold"
-                    android:textColor="#546E7A"/>
+                    android:textColor="#546E7A"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
                     android:text="@string/delivery_address"
-                    android:textSize="8pt"
-                    android:fontFamily="@font/alata"
-                    android:textColor="#546E7A"/>
+                    android:textColor="#546E7A"
+                    android:textSize="16sp" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/cart_recycle"
@@ -73,9 +73,9 @@
                     android:layout_marginTop="10dp" />
 
                 <RelativeLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
                     <TextView
@@ -84,12 +84,11 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentBottom="true"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/items_total"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
-                        android:textStyle="bold" />
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/total"
@@ -99,11 +98,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginEnd="10dp"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/peso_sign"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -119,12 +118,11 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentBottom="true"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/delivery_services"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
-                        android:textStyle="bold" />
+                        android:textSize="17sp" />
 
                     <TextView
                         android:id="@+id/delivery_fee"
@@ -134,11 +132,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginEnd="10dp"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/peso_sign"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
@@ -154,12 +152,11 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentBottom="true"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/payment_option"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
-                        android:textStyle="bold" />
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -168,10 +165,11 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginEnd="10dp"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/cash_on_delivery"
                         android:textColor="#546E7A"
-                        android:textSize="8pt" />
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
@@ -186,11 +184,11 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentBottom="true"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/total"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -201,24 +199,23 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginEnd="10dp"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         android:text="@string/peso_sign"
                         android:textAlignment="center"
                         android:textColor="#546E7A"
-                        android:textSize="10pt"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>
 
                 <com.google.android.material.button.MaterialButton
-                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/btCheckOut"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:layout_width="wrap_content"
                     android:layout_height="65dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="30dp"
-                    app:strokeColor="#87CEFA"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     android:paddingStart="40dp"
                     android:paddingEnd="40dp"
                     android:text="@string/checkout"
@@ -226,9 +223,10 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     app:cornerRadius="5dp"
+                    app:icon="@drawable/ic_baseline_check_circle_outline_24"
                     app:iconSize="25dp"
                     app:iconTint="#87CEFA"
-                    app:icon="@drawable/ic_baseline_check_circle_outline_24" />
+                    app:strokeColor="#87CEFA" />
 
             </LinearLayout>
 
@@ -253,8 +251,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="No orders yet"
-                    android:textSize="30sp"
-                    android:fontFamily="@font/alata"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/beth_ellen"
                     android:textColor="@color/black"/>
 
             </LinearLayout>

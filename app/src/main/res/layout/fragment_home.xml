@@ -56,10 +56,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/beth_ellen"
                     android:text="Stores"
                     android:textColor="#546E7A"
-                    android:textSize="12pt"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -323,10 +323,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/beth_ellen"
                     android:text="Groceries"
                     android:textColor="#546E7A"
-                    android:textSize="12pt"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -346,7 +346,7 @@
                         android:maxLines="10"
                         android:gravity="start"
                         android:inputType="textMultiLine"
-                        android:fontFamily="@font/alata"
+                        android:fontFamily="@font/comfortaa"
                         />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -370,7 +370,7 @@
                     android:text="Buy"
                     android:textColor="#87CEFA"
                     android:textSize="15sp"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
             </LinearLayout>
 

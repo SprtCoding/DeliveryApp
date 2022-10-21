@@ -42,8 +42,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="name"
-                    android:textSize="11pt"
-                    android:fontFamily="@font/alata"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/comfortaa"
                     android:id="@+id/name"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@color/white"/>
@@ -53,8 +53,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="location"
-                    android:textSize="10pt"
-                    android:fontFamily="@font/alata"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/comfortaa"
                     android:id="@+id/order_location"
                     android:textColor="@color/white"/>
 
@@ -63,8 +63,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="phone"
-                    android:textSize="10pt"
-                    android:fontFamily="@font/alata"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/comfortaa"
                     android:id="@+id/order_phone"
                     android:textColor="@color/white"/>
 
@@ -87,7 +87,7 @@
                 android:text="grocery"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/beth_ellen"
                 android:textSize="20sp"/>
 
             <com.google.android.material.button.MaterialButton
@@ -103,7 +103,7 @@
                 android:layout_marginEnd="30dp"
                 android:text="Send Notification Message"
                 android:textSize="7pt"
-                android:fontFamily="@font/alata"/>
+                android:fontFamily="@font/comfortaa"/>
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Widget.MaterialComponents.Button.TextButton"
@@ -117,7 +117,7 @@
                 android:layout_marginEnd="30dp"
                 android:text="Set Status"
                 android:textSize="7pt"
-                android:fontFamily="@font/alata"/>
+                android:fontFamily="@font/comfortaa"/>
 
         </LinearLayout>
 

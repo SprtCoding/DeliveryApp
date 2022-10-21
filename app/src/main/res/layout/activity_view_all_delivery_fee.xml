@@ -51,8 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Delivery Fee Earnings"
-            android:textSize="20sp"
-            android:fontFamily="@font/alata"
+            android:textSize="17sp"
+            android:fontFamily="@font/beth_ellen"
             android:textColor="@color/black"/>
 
         <RelativeLayout
@@ -78,8 +78,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="All Fees"
-                        android:textSize="20sp"
-                        android:fontFamily="@font/alata"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/beth_ellen"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
 
@@ -102,8 +102,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Total"
-                        android:textSize="20sp"
-                        android:fontFamily="@font/alata"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/beth_ellen"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
 
@@ -117,7 +117,7 @@
 
                         <AutoCompleteTextView
                             android:id="@+id/rider"
-                            android:fontFamily="@font/alata"
+                            android:fontFamily="@font/comfortaa"
                             android:inputType="none"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -131,8 +131,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Ex. 02/23/22"
-                        android:textSize="17sp"
-                        android:fontFamily="@font/alata"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/comfortaa"
                         android:textColor="#7777"/>
 
                     <LinearLayout
@@ -156,7 +156,7 @@
                                 android:textSize="17sp"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/alata"
+                                android:fontFamily="@font/comfortaa"
                                 />
 
                         </com.google.android.material.textfield.TextInputLayout>
@@ -172,8 +172,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/peso_sign"
-                        android:textSize="25sp"
-                        android:fontFamily="@font/alata"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/comfortaa"
                         android:textColor="@color/teal_700"/>
 
                 </LinearLayout>

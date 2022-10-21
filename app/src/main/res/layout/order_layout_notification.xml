@@ -31,9 +31,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="name of customer"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/comfortaa"
                 android:textColor="@color/black"
-                android:textSize="20sp"/>
+                android:textSize="17sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -46,9 +46,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="09/09/22"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     android:textColor="@color/black"
-                    android:textSize="12sp"/>
+                    android:textSize="10sp"/>
 
                 <TextView
                     android:layout_marginStart="5dp"
@@ -56,9 +56,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="02:32"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     android:textColor="@color/black"
-                    android:textSize="12sp"/>
+                    android:textSize="10sp"/>
 
             </LinearLayout>
 
@@ -76,9 +76,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Order some foods!"
-            android:textSize="10pt"
+            android:textSize="20sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/alata"
+            android:fontFamily="@font/beth_ellen"
             android:layout_gravity="center"/>
 
         <TextView
@@ -86,9 +86,9 @@
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/alata"
+            android:fontFamily="@font/comfortaa"
             android:layout_gravity="center"/>
 
         <com.google.android.material.button.MaterialButton
@@ -103,7 +103,7 @@
             android:layout_marginEnd="30dp"
             android:text="View Order"
             android:textSize="6pt"
-            android:fontFamily="@font/alata"/>
+            android:fontFamily="@font/comfortaa"/>
 
     </LinearLayout>
 

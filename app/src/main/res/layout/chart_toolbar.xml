@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:fontFamily="@font/alata"
+            android:fontFamily="@font/comfortaa"
             android:text="QuickBite Delivery Service"
             android:textColor="@color/white"
             android:textSize="18sp" />

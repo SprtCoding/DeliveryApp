@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Sender Name"
         android:textSize="20sp"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:textColor="@color/black"
         android:id="@+id/senderName"/>
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="Sender Message"
         android:textSize="15sp"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:textColor="@color/black"
         android:id="@+id/senderMessage"/>
 
@@ -30,28 +30,28 @@
         android:id="@+id/et"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:text="Estimated Time"
         android:textColor="#777777"
-        android:textSize="15sp" />
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/driver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:text="Driver Name"
         android:textColor="#777777"
-        android:textSize="15sp" />
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/orderStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:text="Order Status"
         android:textColor="#777777"
-        android:textSize="15sp" />
+        android:textSize="13sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -62,19 +62,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/alata"
+            android:fontFamily="@font/comfortaa"
             android:text="Note:"
             android:textColor="#777777"
-            android:textSize="15sp" />
+            android:textSize="13sp" />
 
         <TextView
             android:layout_marginStart="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/alata"
+            android:fontFamily="@font/comfortaa"
             android:text="You can also pay for your purchase through GCash once the rider delivers your item."
             android:textColor="#777777"
-            android:textSize="12sp" />
+            android:textSize="11sp" />
 
     </LinearLayout>
 
@@ -86,12 +86,12 @@
         android:layout_gravity="end"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
-        android:fontFamily="@font/alata"
+        android:fontFamily="@font/comfortaa"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:text="Order Received"
         android:textColor="@color/red"
-        android:textSize="15sp"
+        android:textSize="12sp"
         app:cornerRadius="5dp"
         app:strokeColor="@color/red" />
 

@@ -76,8 +76,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="No Data Found!"
-                    android:textSize="25sp"
-                    android:fontFamily="@font/alata"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/beth_ellen"
                     android:textColor="#AFAFAF"/>
 
             </LinearLayout>

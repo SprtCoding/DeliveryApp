@@ -222,7 +222,13 @@ public class grocery_order_details extends AppCompatActivity {
                                                             finish();
                                                         }
                                                     });
+                                        }else if(orderStatus.equals("On Going") || orderStatus.equals("Out for Delivery")) {
+                                            setStatusBt.setVisibility(View.GONE);
+                                        }else {
+                                            setStatusBt.setVisibility(View.VISIBLE);
                                         }
+                                    }else {
+                                        setStatusBt.setVisibility(View.VISIBLE);
                                     }
                                 }
                             }

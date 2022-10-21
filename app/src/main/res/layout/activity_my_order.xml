@@ -47,7 +47,7 @@
             android:textSize="25sp"
             android:layout_gravity="center"
             android:textColor="@color/black"
-            android:fontFamily="@font/alata"/>
+            android:fontFamily="@font/beth_ellen"/>
 
         <RelativeLayout
             android:layout_width="match_parent"

@@ -47,10 +47,10 @@
             android:layout_height="wrap_content"
             android:text="@string/your_available_items"
             android:textColor="#546E7A"
-            android:fontFamily="@font/alata"
+            android:fontFamily="@font/beth_ellen"
             android:textStyle="bold"
             android:padding="10dp"
-            android:textSize="20sp"/>
+            android:textSize="17sp"/>
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                     android:text="See all"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -99,7 +99,7 @@
                     android:text="ThirTea Ann"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -120,7 +120,7 @@
                     android:text="Mang Inasal"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -141,7 +141,7 @@
                     android:text="Kusina ni Lea"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -162,7 +162,7 @@
                     android:text="Rotonda Cafe"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -183,7 +183,7 @@
                     android:text="Sizzling 99"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -204,7 +204,7 @@
                     android:text="Kafe Point"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -225,7 +225,7 @@
                     android:text="El Sorbetero"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -246,7 +246,7 @@
                     android:text="@string/nice_spice"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_marginStart="10dp"
@@ -267,7 +267,7 @@
                     android:text="Thirst Zone"
                     android:textSize="12sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/alata"/>
+                    android:fontFamily="@font/comfortaa"/>
 
             </LinearLayout>
 
@@ -305,8 +305,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="No Data Found!"
-                    android:textSize="25sp"
-                    android:fontFamily="@font/alata"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/beth_ellen"
                     android:textColor="#AFAFAF"/>
 
             </LinearLayout>

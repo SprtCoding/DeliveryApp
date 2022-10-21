@@ -7,43 +7,48 @@
     android:padding="10dp">
 
     <TextView
+        android:fontFamily="@font/comfortaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Driver"
         android:id="@+id/driver"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textColor="#616161"/>
 
     <TextView
+        android:fontFamily="@font/comfortaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Date"
         android:id="@+id/date"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textColor="#616161"/>
 
     <TextView
+        android:fontFamily="@font/comfortaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Time"
         android:id="@+id/time"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textColor="#616161"/>
 
     <TextView
+        android:fontFamily="@font/comfortaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
         android:id="@+id/name"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textColor="#616161"/>
 
     <TextView
+        android:fontFamily="@font/comfortaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/peso_sign"
         android:id="@+id/fee"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textColor="#616161"/>
 
 </LinearLayout>

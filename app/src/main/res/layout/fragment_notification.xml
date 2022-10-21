@@ -22,8 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Notifications"
-            android:textSize="9pt"
-            android:fontFamily="@font/alata"
+            android:textSize="17sp"
+            android:fontFamily="@font/comfortaa"
             android:background="#88CFFB"
             android:textColor="#fff"/>
 
@@ -78,8 +78,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="No Notification!"
-                    android:textSize="25sp"
-                    android:fontFamily="@font/alata"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/beth_ellen"
                     android:textColor="#AFAFAF"/>
 
             </LinearLayout>

@@ -1,72 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".register_activity">
+    tools:context=".edit_profile">
 
-    <LinearLayout
-        android:id="@+id/main_layout"
-        android:layout_width="0dp"
+    <include
+        android:id="@+id/main_page_toolbar"
+        layout="@layout/jollibee_toolbar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </include>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/welcome_lbl"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/gradient_bg"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/beth_ellen"
+        android:text="Edit Profile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/userPic"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/userman"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userPic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/userman"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/ic_photo_camera_black_48dp"
-                app:layout_constraintBottom_toBottomOf="@id/userPic"
-                app:layout_constraintEnd_toEndOf="@id/userPic"
-                android:id="@+id/add_photo"
-                android:contentDescription="@string/icon"
-                app:tint="#546E7A" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_photo_camera_black_48dp"
+            app:layout_constraintBottom_toBottomOf="@id/userPic"
+            app:layout_constraintEnd_toEndOf="@id/userPic"
+            android:id="@+id/add_photo"
+            android:contentDescription="@string/icon"
+            app:tint="#546E7A" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <TextView
-            android:layout_marginBottom="10dp"
-            android:id="@+id/welcome_lbl"
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="@font/beth_ellen"
-            android:text="@string/create"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="22sp" />
-
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.core.widget.NestedScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/main_layout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scrollbars="none">
 
         <LinearLayout
@@ -163,53 +156,9 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:hint="@string/password"
-                app:startIconDrawable="@drawable/ic_baseline_lock_24"
-                android:layout_width="match_parent"
-                app:endIconMode="password_toggle"
-                app:boxStrokeColor="#67A0C3"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_height="wrap_content">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/passwordET"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPassword"
-                    android:fontFamily="@font/comfortaa"
-                    />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:hint="@string/confirm_password"
-                app:startIconDrawable="@drawable/ic_baseline_lock_24"
-                android:layout_width="match_parent"
-                app:endIconMode="password_toggle"
-                app:boxStrokeColor="#67A0C3"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_height="wrap_content">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/conPasswordET"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPassword"
-                    android:fontFamily="@font/comfortaa"
-                    />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
             <com.google.android.material.button.MaterialButton
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                android:id="@+id/signUpBtn"
+                android:id="@+id/updateBtn"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
@@ -217,7 +166,7 @@
                 app:cornerRadius="5dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:text="@string/sign_up"
+                android:text="Update"
                 android:textColor="#87CEFA"
                 android:textSize="10pt"
                 android:fontFamily="@font/comfortaa"/>
@@ -226,4 +175,4 @@
 
     </androidx.core.widget.NestedScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

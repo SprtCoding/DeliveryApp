@@ -40,8 +40,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MISSION"
-                android:textSize="30sp"
-                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                android:fontFamily="@font/beth_ellen"
                 android:layout_gravity="center"
                 android:textColor="@color/teal_700"
                 android:layout_marginTop="10dp"/>
@@ -53,9 +53,9 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:text="@string/mission"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:justificationMode="inter_word"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/comfortaa"
                 android:layout_gravity="center"
                 android:textColor="@color/teal_700"/>
 
@@ -63,8 +63,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="VISION"
-                android:textSize="30sp"
-                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                android:fontFamily="@font/beth_ellen"
                 android:layout_gravity="center"
                 android:textColor="@color/teal_700"
                 android:layout_marginTop="10dp"/>
@@ -76,9 +76,9 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:text="@string/vission"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:justificationMode="inter_word"
-                android:fontFamily="@font/alata"
+                android:fontFamily="@font/comfortaa"
                 android:layout_gravity="center"
                 android:textColor="@color/teal_700"/>
 

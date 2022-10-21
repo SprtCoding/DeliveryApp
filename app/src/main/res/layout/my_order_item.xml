@@ -30,34 +30,38 @@
             android:paddingEnd="10dp">
 
             <TextView
+                android:fontFamily="@font/comfortaa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product_name"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:textColor="@color/black"
                 android:id="@+id/foodName"/>
 
             <TextView
+                android:fontFamily="@font/comfortaa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/description"
-                android:textSize="13sp"
+                android:textSize="12sp"
                 android:textColor="@color/black"
                 android:id="@+id/foodDescription"/>
 
             <TextView
+                android:fontFamily="@font/comfortaa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Quantity"
-                android:textSize="13sp"
+                android:textSize="12sp"
                 android:textColor="@color/black"
                 android:id="@+id/foodQuantity"/>
 
             <TextView
+                android:fontFamily="@font/comfortaa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/peso_sign"
-                android:textSize="13sp"
+                android:textSize="11sp"
                 android:textColor="@color/black"
                 android:id="@+id/foodPrice"/>
 
@@ -72,7 +76,7 @@
                 android:text="Cancel Order"
                 android:layout_gravity="end"
                 android:textSize="12sp"
-                android:fontFamily="@font/alata"/>
+                android:fontFamily="@font/comfortaa"/>
 
         </LinearLayout>
 

@@ -29,8 +29,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/profile"
-                android:textSize="15pt"
-                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                android:fontFamily="@font/beth_ellen"
                 android:textColor="@color/white"/>
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -50,51 +50,105 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/full_name"
-                android:textSize="15pt"
-                android:fontFamily="@font/alata"
+                android:textSize="20sp"
+                android:fontFamily="@font/beth_ellen"
                 android:textColor="@color/white"/>
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:gravity="bottom"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="60dp">
+        android:scrollbars="none">
 
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:id="@+id/orders"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:textColor="@color/black"
-            app:icon="@drawable/baseline_shopping_bag_24"
-            app:iconTint="@color/black"
-            android:text="My Orders"
-            android:textAlignment="textStart"
-            app:iconSize="30dp"
-            android:textSize="7pt"
-            android:fontFamily="@font/alata"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="60dp">
 
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:id="@+id/logout"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:textColor="@color/black"
-            app:icon="@drawable/outline_logout_24"
-            app:iconTint="@color/black"
-            android:text="@string/log_out"
-            android:textAlignment="textStart"
-            app:iconSize="30dp"
-            android:textSize="7pt"
-            android:fontFamily="@font/alata"/>
+            <TextView
+                android:id="@+id/email"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:fontFamily="@font/comfortaa"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"/>
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/phone"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:fontFamily="@font/comfortaa"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:fontFamily="@font/comfortaa"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="17sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:id="@+id/editBt"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textColor="@color/black"
+                app:icon="@drawable/outline_edit_24"
+                app:iconTint="@color/black"
+                android:text="Edit Information"
+                android:textAlignment="textStart"
+                app:iconSize="30dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/comfortaa"/>
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:id="@+id/orders"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textColor="@color/black"
+                app:icon="@drawable/baseline_shopping_bag_24"
+                app:iconTint="@color/black"
+                android:text="My Orders"
+                android:textAlignment="textStart"
+                app:iconSize="30dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/comfortaa"/>
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textColor="@color/black"
+                app:icon="@drawable/outline_logout_24"
+                app:iconTint="@color/black"
+                android:text="@string/log_out"
+                android:textAlignment="textStart"
+                app:iconSize="30dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/comfortaa"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
