@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/beth_ellen"
+                android:fontFamily="@font/baloo"
                 android:text="@string/products_picture"
                 android:textAlignment="center"
                 android:textColor="@color/black"

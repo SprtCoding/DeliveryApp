@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/profile"
                 android:textSize="20sp"
-                android:fontFamily="@font/beth_ellen"
+                android:fontFamily="@font/baloo"
                 android:textColor="@color/white"/>
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/full_name"
                 android:textSize="20sp"
-                android:fontFamily="@font/beth_ellen"
+                android:fontFamily="@font/baloo"
                 android:textColor="@color/white"/>
 
         </LinearLayout>

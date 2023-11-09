@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -23,8 +22,8 @@
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/font/akaya_telivigala.xml" value="0.14828544949026876" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_add_new_product.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_cart.xml" value="0.22" />
-        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_chart.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_cart.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_chart.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_crcle_list.xml" value="0.13247863247863248" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.14407866609662248" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_edit_food.xml" value="0.22" />
@@ -51,7 +50,7 @@
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/activity_view_all_delivery_fee.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/add_toolbar.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/admin_foods_list.xml" value="0.22" />
-        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/admin_toolbar.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/admin_toolbar.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/branch_food_list.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/cart_item.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/cart_toolbar.xml" value="0.16666666666666666" />
@@ -60,9 +59,10 @@
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/cus_notif_list.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/delivery_fee_list.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/dropdown_item.xml" value="0.22" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/edit_address_dialog.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/esit_toolbar.xml" value="0.144017094017094" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_home.xml" value="0.22" />
-        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_me.xml" value="0.144017094017094" />
+        <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_me.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_message.xml" value="0.22" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_admin_notification.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/adrle/Android Projects/QuickBite/app/src/main/res/layout/fragment_home.xml" value="0.22" />
@@ -111,7 +111,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

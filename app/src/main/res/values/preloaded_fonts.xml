@@ -3,6 +3,8 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/akaya_telivigala</item>
         <item>@font/alata</item>
+        <item>@font/baloo</item>
+        <item>@font/barriecito</item>
         <item>@font/beth_ellen</item>
         <item>@font/comfortaa</item>
     </array>

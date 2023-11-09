@@ -40,7 +40,7 @@ public class edit_profile extends AppCompatActivity {
     private FirebaseUser mUSer;
     private FirebaseDatabase mDb;
     private DatabaseReference userRef;
-    private ImageView add_photo;
+    private ImageView add_photo, backBtn;
     public Uri imageUri;
     private StorageReference storageReference;
     private String myUri;
@@ -92,6 +92,8 @@ public class edit_profile extends AppCompatActivity {
 
         updateBtn.setOnClickListener(view -> updateAccount());
 
+        backBtn.setOnClickListener(view -> finish());
+
     }
 
     private void updateAccount() {
@@ -134,7 +136,6 @@ public class edit_profile extends AppCompatActivity {
                         });
             }
         }
-
     }
 
     @Override
@@ -199,6 +200,7 @@ public class edit_profile extends AppCompatActivity {
         phoneET = findViewById(R.id.phoneET);
         emailET = findViewById(R.id.emailET);
         updateBtn = findViewById(R.id.updateBtn);
+        backBtn = findViewById(R.id.backBtn);
     }
 
     @Override

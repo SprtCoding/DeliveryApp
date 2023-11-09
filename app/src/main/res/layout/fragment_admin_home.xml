@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text="@string/your_available_items"
             android:textColor="#546E7A"
-            android:fontFamily="@font/beth_ellen"
+            android:fontFamily="@font/baloo"
             android:textStyle="bold"
             android:padding="10dp"
             android:textSize="17sp"/>

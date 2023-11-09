@@ -78,7 +78,7 @@
             android:text="Order some foods!"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:fontFamily="@font/beth_ellen"
+            android:fontFamily="@font/baloo"
             android:layout_gravity="center"/>
 
         <TextView

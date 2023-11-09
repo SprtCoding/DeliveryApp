@@ -41,7 +41,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/beth_ellen"
+                    android:fontFamily="@font/baloo"
                     android:text="@string/my_cart"
                     android:textColor="#546E7A"
                     android:textSize="25sp"
@@ -57,14 +57,29 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/address"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/comfortaa"
-                    android:text="@string/delivery_address"
-                    android:textColor="#546E7A"
-                    android:textSize="16sp" />
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa"
+                        android:text="@string/delivery_address"
+                        android:textColor="#546E7A"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/outline_edit_24"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/btEditAddress"/>
+
+                </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/cart_recycle"
@@ -241,8 +256,8 @@
                 android:gravity="center">
 
                 <ImageView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/outline_shopping_cart_24"
                     android:contentDescription="@string/app_name"
                     app:tint="#C5C5C5" />
@@ -252,8 +267,8 @@
                     android:layout_height="wrap_content"
                     android:text="No orders yet"
                     android:textSize="20sp"
-                    android:fontFamily="@font/beth_ellen"
-                    android:textColor="@color/black"/>
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#838383"/>
 
             </LinearLayout>
 

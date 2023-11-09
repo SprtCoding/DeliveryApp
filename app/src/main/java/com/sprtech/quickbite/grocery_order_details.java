@@ -200,48 +200,52 @@ public class grocery_order_details extends AppCompatActivity {
                         alertDialogSet.dismiss();
                         sendNotification1(cusID, stats, dr);
                         Toast.makeText(this, "Status set successfully", Toast.LENGTH_SHORT).show();
-                        nOrderRef.child(cusID).child(mUSer.getUid()).child(ID).addValueEventListener(new ValueEventListener() {
-                            @Override
-                            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                if(snapshot.exists()) {
-                                    if(snapshot.hasChild("Status")) {
-                                        orderStatus = snapshot.child("Status").getValue(String.class);
-                                        assert orderStatus != null;
-                                        if(orderStatus.equals("Delivered")){
-                                            orderRef.child(mUSer.getUid()).child(orderID).removeValue();
-                                            HashMap<String, Object> map = new HashMap<>();
-                                            map.put("cusName", cusName);
-                                            map.put("cusTotalOrder", cusTotalOrder);
-                                            map.put("cusLocation", cusLocation);
-                                            map.put("cusPhone", cusPhone);
-                                            orderHistoryRef.child(mUSer.getUid()).child(cusID).setValue(map)
-                                                    .addOnCompleteListener(task1 -> {
-                                                        if(task1.isSuccessful()) {
-                                                            Intent i = new Intent(grocery_order_details.this, admin_dashboard.class);
-                                                            startActivity(i);
-                                                            finish();
-                                                        }
-                                                    });
-                                        }else if(orderStatus.equals("On Going") || orderStatus.equals("Out for Delivery")) {
-                                            setStatusBt.setVisibility(View.GONE);
-                                        }else {
-                                            setStatusBt.setVisibility(View.VISIBLE);
-                                        }
-                                    }else {
-                                        setStatusBt.setVisibility(View.VISIBLE);
-                                    }
-                                }
-                            }
 
-                            @Override
-                            public void onCancelled(@NonNull DatabaseError error) {
-                                Toast.makeText(grocery_order_details.this, error.getMessage(), Toast.LENGTH_SHORT).show();
-                            }
-                        });
                     }
                 });
             }, 3000);
         });
+
+        if(mUSer != null) {
+            nOrderRef.child(cusID).child(mUSer.getUid()).child(orderID).addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    if(snapshot.exists()) {
+                        if(snapshot.hasChild("Status")) {
+                            orderStatus = snapshot.child("Status").getValue(String.class);
+                            assert orderStatus != null;
+                            if(orderStatus.equals("Delivered")){
+                                orderRef.child(mUSer.getUid()).child(orderID).removeValue();
+                                HashMap<String, Object> map = new HashMap<>();
+                                map.put("cusName", cusName);
+                                map.put("cusTotalOrder", cusTotalOrder);
+                                map.put("cusLocation", cusLocation);
+                                map.put("cusPhone", cusPhone);
+                                orderHistoryRef.child(mUSer.getUid()).child(cusID).setValue(map)
+                                        .addOnCompleteListener(task1 -> {
+                                            if(task1.isSuccessful()) {
+                                                Intent i = new Intent(grocery_order_details.this, admin_dashboard.class);
+                                                startActivity(i);
+                                                finish();
+                                            }
+                                        });
+                            }else if(orderStatus.equals("On Going") || orderStatus.equals("Out for Delivery")) {
+                                setStatusBt.setVisibility(View.GONE);
+                            }else {
+                                setStatusBt.setVisibility(View.VISIBLE);
+                            }
+                        }else {
+                            setStatusBt.setVisibility(View.VISIBLE);
+                        }
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    Toast.makeText(grocery_order_details.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
 
         builder1.setView(inView1);
         alertDialogSet = builder1.create();

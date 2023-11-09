@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:fontFamily="@font/beth_ellen"
+            android:fontFamily="@font/baloo"
             android:text="@string/create"
             android:textAlignment="center"
             android:textColor="@color/white"

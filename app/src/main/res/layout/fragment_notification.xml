@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:text="No Notification!"
                     android:textSize="20sp"
-                    android:fontFamily="@font/beth_ellen"
+                    android:fontFamily="@font/baloo"
                     android:textColor="#AFAFAF"/>
 
             </LinearLayout>

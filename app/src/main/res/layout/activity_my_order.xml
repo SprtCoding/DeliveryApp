@@ -47,7 +47,7 @@
             android:textSize="25sp"
             android:layout_gravity="center"
             android:textColor="@color/black"
-            android:fontFamily="@font/beth_ellen"/>
+            android:fontFamily="@font/baloo"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -81,8 +81,8 @@
                     android:layout_height="wrap_content"
                     android:text="You Don't have orders"
                     android:textSize="20sp"
-                    android:fontFamily="@font/alata"
-                    android:textColor="#AFAFAF"/>
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#838383"/>
 
             </LinearLayout>
 

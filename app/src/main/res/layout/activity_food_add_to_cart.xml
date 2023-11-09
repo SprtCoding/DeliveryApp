@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:text="@string/acro_name"
             android:textAlignment="center"
-            android:fontFamily="@font/beth_ellen"
+            android:fontFamily="@font/baloo"
             android:textSize="22sp"
             android:textColor="#546E7A"
             android:textStyle="bold"

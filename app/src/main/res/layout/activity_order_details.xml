@@ -83,10 +83,10 @@
                 android:layout_height="wrap_content">
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:layout_centerInParent="true"
+                    android:id="@+id/order_list_recycle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/order_list_recycle"/>
+                    android:layout_centerInParent="true" />
 
                 <TextView
                     android:visibility="gone"
@@ -97,7 +97,7 @@
                     android:text="grocery"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:fontFamily="@font/alata"
+                    android:fontFamily="@font/comfortaa"
                     android:textSize="20sp"/>
 
             </RelativeLayout>

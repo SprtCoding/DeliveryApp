@@ -23,6 +23,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.sprtech.quickbite.Adapters.OrderAdapter;
+import com.sprtech.quickbite.Adapters.OrderListAdapter;
+import com.sprtech.quickbite.Models.OrderListModel;
 import com.sprtech.quickbite.Models.OrderModel;
 
 import java.util.ArrayList;
@@ -33,13 +35,14 @@ public class AdminNotificationFragment extends Fragment {
     private LinearLayout no_data_layout;
     private RecyclerView ordered_recycle;
     private FirebaseDatabase mDB;
-    private DatabaseReference orderRef;
+    private DatabaseReference orderRef, orderDetailsRef;
     private FirebaseAuth mAuth;
     private FirebaseUser mUser;
     LinearLayoutManager linearLayoutManager;
     List<OrderModel> orderModels;
     OrderAdapter orderAdapter;
     View v;
+    String orderID, cusID, id;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -60,6 +63,7 @@ public class AdminNotificationFragment extends Fragment {
 
         mDB = FirebaseDatabase.getInstance();
         orderRef = mDB.getReference("Orders");
+        orderDetailsRef = mDB.getReference("OrdersDetails");
 
         if(mUser != null) {
 
@@ -73,6 +77,9 @@ public class AdminNotificationFragment extends Fragment {
                         for(DataSnapshot dataSnapshot : snapshot.getChildren()) {
                             OrderModel order = dataSnapshot.getValue(OrderModel.class);
                             orderModels.add(order);
+                            orderID = order.getCusOrderID();
+                            cusID = order.getCusID();
+                            id = order.getOrderID();
                             if(order.getStatus().equals("Delivered")) {
                                 orderRef.child(mAuth.getCurrentUser().getUid()).child(order.getOrderID()).removeValue();
                             }
@@ -81,6 +88,35 @@ public class AdminNotificationFragment extends Fragment {
                         ordered_recycle.scrollToPosition(orderModels.size()-1);
                         new Handler().postDelayed(() -> ordered_recycle.smoothScrollToPosition(orderModels.size()-1),350);
                         ordered_recycle.setAdapter(orderAdapter);
+
+                        orderDetailsRef.child(mUser.getUid()).child(orderID).child(cusID).addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                                if(!snapshot.exists()) {
+                                    orderRef.child(mAuth.getCurrentUser().getUid()).child(id).removeValue();
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError error) {
+                                Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+                        });
+
+//                        orderRef.child(mUser.getUid()).child(id).addValueEventListener(new ValueEventListener() {
+//                            @Override
+//                            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                                if(!snapshot.exists()) {
+//                                    orderDetailsRef.child(mUser.getUid()).child(orderID).child(cusID).removeValue();
+//                                }
+//                            }
+//
+//                            @Override
+//                            public void onCancelled(@NonNull DatabaseError error) {
+//                                Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
+//                            }
+//                        });
+
                     }else {
                         ordered_recycle.setVisibility(View.GONE);
                         no_data_layout.setVisibility(View.VISIBLE);

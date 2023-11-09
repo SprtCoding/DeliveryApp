@@ -308,6 +308,8 @@ public class order_details extends AppCompatActivity {
                         }
                         orderListAdapter = new OrderListAdapter(order_details.this, orderListModels);
                         order_list_recycle.setAdapter(orderListAdapter);
+                    }else {
+                        orderRef.child(mAuth.getCurrentUser().getUid()).removeValue();
                     }
                 }
 

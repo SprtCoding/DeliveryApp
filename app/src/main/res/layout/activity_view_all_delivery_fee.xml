@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:text="Delivery Fee Earnings"
             android:textSize="17sp"
-            android:fontFamily="@font/beth_ellen"
+            android:fontFamily="@font/baloo"
             android:textColor="@color/black"/>
 
         <RelativeLayout
@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:text="All Fees"
                         android:textSize="15sp"
-                        android:fontFamily="@font/beth_ellen"
+                        android:fontFamily="@font/baloo"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
 
@@ -103,7 +103,7 @@
                         android:layout_height="wrap_content"
                         android:text="Total"
                         android:textSize="15sp"
-                        android:fontFamily="@font/beth_ellen"
+                        android:fontFamily="@font/baloo"
                         android:textColor="@color/black"
                         android:textStyle="bold"/>
 

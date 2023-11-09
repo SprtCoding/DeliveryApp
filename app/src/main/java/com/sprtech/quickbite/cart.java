@@ -1,6 +1,7 @@
 package com.sprtech.quickbite;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -21,6 +22,7 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -47,7 +49,7 @@ public class cart extends AppCompatActivity {
     private DatabaseReference cartRef, orderRef, userRef;
     private RecyclerView cart_recycle;
     private TextView total, delivery_fee, total_fee, address;
-    private ImageView backBtn;
+    private ImageView backBtn, btEditAddress;
     private MaterialButton btCheckOut;
     private LinearLayout no_data_layout, have_cart_layout;
     LinearLayoutManager linearLayoutManager;
@@ -58,6 +60,7 @@ public class cart extends AppCompatActivity {
     double totalFees;
     String names, totalPrice, MyAddress, cusName, cusPic, cusPhone, userToken, ID, cartOrderID;
     double totalDeliveryFee = 0;
+    AlertDialog alertDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +73,34 @@ public class cart extends AppCompatActivity {
         userRef = mDB.getReference("Users");
         DatabaseReference orderPendingRef = mDB.getReference("OrdersPending");
         DatabaseReference deliveryFeeRef = mDB.getReference("TotalDeliveryFee");
+
+        //address
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Edit Address");
+
+        View inView = getLayoutInflater().inflate(R.layout.edit_address_dialog, null);
+        TextInputEditText addressET;
+        MaterialButton updateBtn;
+
+        addressET = inView.findViewById(R.id.addressET);
+        updateBtn = inView.findViewById(R.id.updateBtn);
+        updateBtn.setOnClickListener(view -> {
+            String message = addressET.getText().toString();
+            loadingBar.show();
+            Handler handler = new Handler();
+            handler.postDelayed(() -> {
+                address.setText(message);
+                alertDialog.dismiss();
+                loadingBar.dismiss();
+            }, 3000);
+        });
+
+        builder.setView(inView);
+        alertDialog = builder.create();
+
+        btEditAddress.setOnClickListener(view -> {
+            alertDialog.show();
+        });
 
         totalPrice = total_fee.getText().toString();
 
@@ -298,7 +329,7 @@ public class cart extends AppCompatActivity {
             hashMap1.put("cusName", cusName);
             hashMap1.put("orderDate", String.valueOf(currentDate));
             hashMap1.put("orderTime", String.valueOf(currentTime));
-            hashMap1.put("cusAddress", MyAddress);
+            hashMap1.put("cusAddress", address.getText().toString());
             hashMap1.put("deliveryFee", String.valueOf(totalDeliveryFee));
             hashMap1.put("cusPic", cusPic);
             hashMap1.put("orderStatus", "FastFood");
@@ -353,6 +384,7 @@ public class cart extends AppCompatActivity {
     }
 
     private void var() {
+        btEditAddress = findViewById(R.id.btEditAddress);
         cart_recycle = findViewById(R.id.cart_recycle);
         total = findViewById(R.id.total);
         backBtn = findViewById(R.id.backBtn);

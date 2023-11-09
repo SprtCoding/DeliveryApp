@@ -21,8 +21,7 @@
             android:exported="false" />
         <activity
             android:name=".chart_activity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
+            android:exported="false" />
         <activity
             android:name=".my_order"
             android:exported="false" />

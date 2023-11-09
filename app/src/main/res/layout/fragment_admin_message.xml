@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:text="MISSION"
                 android:textSize="20sp"
-                android:fontFamily="@font/beth_ellen"
+                android:fontFamily="@font/baloo"
                 android:layout_gravity="center"
                 android:textColor="@color/teal_700"
                 android:layout_marginTop="10dp"/>
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:text="VISION"
                 android:textSize="20sp"
-                android:fontFamily="@font/beth_ellen"
+                android:fontFamily="@font/baloo"
                 android:layout_gravity="center"
                 android:textColor="@color/teal_700"
                 android:layout_marginTop="10dp"/>

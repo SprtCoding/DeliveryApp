@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hi"
                 android:textSize="17sp"
-                android:fontFamily="@font/comfortaa"
+                android:fontFamily="@font/baloo"
                 android:layout_marginStart="10dp"
                 android:textColor="@color/black"/>
 
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/full_name"
                 android:textSize="17sp"
-                android:fontFamily="@font/comfortaa"
+                android:fontFamily="@font/baloo"
                 android:layout_marginStart="10dp"
                 android:textColor="@color/black"/>
 

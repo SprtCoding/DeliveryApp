@@ -27,6 +27,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organizational Chart"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/teal_700"/>
+
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
@@ -41,8 +51,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="50dp"
                         android:src="@drawable/wek"
                         android:scaleType="fitXY"/>
 
@@ -53,8 +63,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Jerome Richard L. Uson"
-                        android:fontFamily="@font/comfortaa"
-                        android:textSize="12sp"/>
+                        android:fontFamily="@font/baloo"
+                        android:textSize="8sp"/>
 
                     <TextView
                         android:paddingBottom="10dp"
@@ -63,7 +73,7 @@
                         android:layout_height="wrap_content"
                         android:text="Owner/Admin"
                         android:fontFamily="@font/alata"
-                        android:textSize="12sp"/>
+                        android:textSize="8sp"/>
 
                 </LinearLayout>
 
@@ -89,8 +99,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/bauto"
                             android:scaleType="fitXY"/>
 
@@ -101,8 +111,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Ian Bauto"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -111,14 +121,14 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -132,8 +142,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/kyle"
                             android:scaleType="fitXY"/>
 
@@ -144,8 +154,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Kyle Jaffer Sarito"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -154,14 +164,14 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -175,8 +185,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/lance"
                             android:scaleType="fitXY"/>
 
@@ -187,8 +197,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Lance Casao"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -197,93 +207,7 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardBackgroundColor="@color/white"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
-                            android:src="@drawable/dave"
-                            android:scaleType="fitXY"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Dave Morales"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
-
-                        <TextView
-                            android:paddingBottom="10dp"
-                            android:layout_gravity="center"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Rider"
-                            android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardBackgroundColor="@color/white"
-                    app:cardCornerRadius="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
-                            android:src="@drawable/marlo"
-                            android:scaleType="fitXY"/>
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Marlo Barrera"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
-
-                        <TextView
-                            android:paddingBottom="10dp"
-                            android:layout_gravity="center"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Rider"
-                            android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
@@ -292,8 +216,6 @@
             </LinearLayout>
 
             <LinearLayout
-                android:paddingBottom="25dp"
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -313,8 +235,94 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/dave"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dave Morales"
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
+
+                        <TextView
+                            android:paddingBottom="10dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rider"
+                            android:fontFamily="@font/alata"
+                            android:textSize="8sp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/marlo"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Marlo Barrera"
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
+
+                        <TextView
+                            android:paddingBottom="10dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rider"
+                            android:fontFamily="@font/alata"
+                            android:textSize="8sp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/andrew"
                             android:scaleType="fitXY"/>
 
@@ -325,8 +333,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Andrew Doronio"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -335,14 +343,21 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
                 <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -356,8 +371,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/jaybee"
                             android:scaleType="fitXY"/>
 
@@ -368,8 +383,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Jaybee Sunga"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -378,14 +393,14 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -399,8 +414,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/gerald"
                             android:scaleType="fitXY"/>
 
@@ -411,8 +426,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Gerald Gragasin"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -421,14 +436,14 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -442,8 +457,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/jasper"
                             android:scaleType="fitXY"/>
 
@@ -454,8 +469,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Jasper Delas Alas"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -464,14 +479,21 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
                 <androidx.cardview.widget.CardView
-                    android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -485,8 +507,8 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="70dp"
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
                             android:src="@drawable/dugs"
                             android:scaleType="fitXY"/>
 
@@ -497,8 +519,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Leandro Sy"
-                            android:fontFamily="@font/comfortaa"
-                            android:textSize="12sp"/>
+                            android:fontFamily="@font/baloo"
+                            android:textSize="8sp"/>
 
                         <TextView
                             android:paddingBottom="10dp"
@@ -507,7 +529,7 @@
                             android:layout_height="wrap_content"
                             android:text="Rider"
                             android:fontFamily="@font/alata"
-                            android:textSize="12sp"/>
+                            android:textSize="8sp"/>
 
                     </LinearLayout>
 

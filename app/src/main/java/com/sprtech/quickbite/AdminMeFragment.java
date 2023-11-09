@@ -28,14 +28,12 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class AdminMeFragment extends Fragment {
     View v;
-    private MaterialButton chartBtn;
     private ProgressDialog loadingBar1;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.fragment_admin_me, container, false);
-        initiate();
         MaterialButton logout = v.findViewById(R.id.logout);
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser mUser = mAuth.getCurrentUser();
@@ -92,19 +90,6 @@ public class AdminMeFragment extends Fragment {
 
         }
 
-        chartBtn.setOnClickListener(view -> {
-            loadingBar1.show();
-            Handler handler = new Handler();
-            handler.postDelayed(() -> {
-                loadingBar1.dismiss();
-                Intent i = new Intent(getContext(), chart_activity.class);
-                startActivity(i);
-            }, 3000);
-        });
-
         return v;
-    }
-    private void initiate() {
-        chartBtn = v.findViewById(R.id.chartBtn);
     }
 }
